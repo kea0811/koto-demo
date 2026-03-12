@@ -1,0 +1,43 @@
+{
+  "name": "koto-demo",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "license": "MIT",
+  "author": "kea0811",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kea0811/koto-demo.git"
+  },
+  "homepage": "https://github.com/kea0811/koto-demo",
+  "bugs": {
+    "url": "https://github.com/kea0811/koto-demo/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "antd": "^5.27.3",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "koto-react": "file:../hermes-react",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.39.1",
+    "vite": "^7.1.2"
+  }
+}
